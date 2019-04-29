@@ -1,0 +1,744 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>cit club</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <script src="assets/js/bootstrap.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/lato-webfont.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" height="70" width="100" alt="" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#features">About Cit club</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#timetable">sem timetable</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#login" data-toggle="modal">  <div class="glyphicon glyphicon-log-in"></div> member login</a></li>
+                        <li><a href="#officials_login" data-toggle="modal">  <div class="glyphicon glyphicon-log-in"></div> official login</a></li>
+                        
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--Home page style-->
+        <header id="home" class="home">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-md-offset-6 col-sm-12 col-xs-12">
+                        <div class="home-content sections">
+
+                            <h1><span>C</span>omputing & <span>I</span>nformation <span>T</span>echnology <span>C</span>lub</h1>
+                            <p>Multimedia University of Kenya CIT club gives extra technological skills apart from that offered from class work.Furthermore, the club dedicates much time to enlighten students on both the significance of tech to the society and it's trends.</p>
+
+                            <button  href="#register" class="btn btn-default btn-lg" data-toggle="modal">Register</button>
+                            
+                            <a target="_blank" href="#features"><button class="btn btn-primary btn-lg">Learn More</button></a>
+
+                            <div class="available">
+                                <p>
+                                    Available on :
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-youtube"></i></a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!--register modal form-->
+<div class="modal fade" id="register" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<form class="form-horizontal" method="POST" action="signup.php">
+<div class="modal-header">
+<h4><center> <span><img src="assets/images/logo.png" width="50" height="40"></span>  CIT CLUB MEMBER REGISTRATION</center></h4>
+</div>
+
+<div class="modal-body">
+
+<div class="form-group">
+<label for="adm number" class="col-lg-3 control-label">Adm number:</label>
+<div class="col-lg-9">
+<input type="text" class="form-control" name="adm" placeholder="Enter your admission number here" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="password" class="col-lg-3 control-label">Password:</label>
+<div class="col-lg-9">
+<input type="password" class="form-control" name="password" placeholder="Enter your password here" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="name" class="col-lg-3 control-label">First name:</label>
+<div class="col-lg-9">
+<input type="text" class="form-control" name="fname" placeholder="Enter your first name here" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="faculty" class="col-lg-3 control-label">Last name:</label>
+<div class="col-lg-9">
+<input type="text" class="form-control" name="lname" placeholder="Enter your last name here">
+</div>
+</div>
+
+
+<div class="form-group">
+<label for="faculty" class="col-lg-3 control-label">Faculty:</label>
+<div class="col-lg-9">
+<input type="text" class="form-control" name="faculty" placeholder="Enter your faculty here">
+</div>
+</div>
+
+<div class="form-group">
+<label for="faculty" class="col-lg-3 control-label">Course:</label>
+<div class="col-lg-9">
+<input type="text" class="form-control" name="course" placeholder="Enter your course here">
+</div>
+</div>
+
+<div class="form-group">
+<label for="faculty" class="col-lg-3 control-label">Email:</label>
+<div class="col-lg-9">
+<input type="email" class="form-control" name="email" placeholder="Enter your email here">
+</div>
+</div>
+<div class="form-group">
+<label for="faculty" class="col-lg-3 control-label">Cellphone:</label>
+<div class="col-lg-9">
+<input type="number" class="form-control" name="cellphone" placeholder="Enter your cellphone here">
+</div>
+</div>
+
+
+<div class="form-group">
+<!--<div class="modal-footer">-->
+<font size="2" color="red">Kindly pay a registration fee Ksh.100 to 0711187760</font>
+<button type="button" class="btn btn-primary contact-btn" onclick="location.reload()">BACK</button>
+<button class="btn btn-primary" type="submit" name="register">SUBMIT</button>
+<!--</div>-->
+</div>
+
+
+</div>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+
+<!--end of modal form-->
+        </header>
+
+
+
+
+
+
+
+
+
+                   
+        <!-- Sections -->
+        <section id="features" class="sections lightbg">
+            <div class="container text-center">
+
+                <div class="heading-content">
+                 <div class="col-md-6 col-sm-6 col-xs-12">
+                    <h4>Briefly about CIT Club</h4>
+                    <p>Multimedia University of Kenya CIT club gives extra technological skills apart from that offered from class work.Furthermore, the club dedicates much time to enlighten students on both the significance of tech to the society and it's trends.</p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="features-content">
+                         <h4>CLUB MOTTO:</h4>
+                         <p>Innovating beyond imagination</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="features-content">
+                         <h4>CLUB MISSION:</h4>
+                         <p>To add practical value to the theoretical concepts of technology and innovation</p><br>
+                        </div>
+
+                    </div>
+
+
+                    
+                    <h3> <br><br><br><br><br>  <center>Club Officials</center></h3>
+                    <hr>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="features-content">
+                            <img src="assets/images/karis.png" height="200" width="200" style="border-radius: 50%;">
+                            <h5>kelvin kariuki:club patron</h5>
+                            <p>Co-founder of electracka system.</p>
+                        </div><hr>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12"  style="border-left: 1px solid lightgrey;">
+                        <div class="features-content">
+                           <img src="assets/images/katana.jpg" height="200" width="200" style="border-radius: 50%;">
+                            <h5>cyprian katana:faculty rep</h5>
+                            <p>IT student at MMU</p>
+                        </div><hr>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12"     style="border-left: 1px solid lightgrey;">
+                        <div class="features-content">
+                            <img src="assets/images/brayo.jpg" height="200" width="200" style="border-radius: 50%;">
+                            <h5>brian ouma:club chairman</h5>
+                            <p>Computer Science student at MMU</p>
+                        </div><hr>
+                    </div>
+
+                     <div class="col-md-3 col-sm-6 col-xs-12"     style="border-left: 1px solid lightgrey;">
+                        <div class="features-content">
+                            <img src="assets/images/douglas.jpg" height="200" width="200" style="border-radius: 50%;">
+                            <h5>douglas:vice chairman</h5>
+                            <p>Software Engineering student at MMU</p>
+                        </div><hr>
+                    </div>
+
+
+                     <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="features-content">
+                            <img src="assets/images/felix.jpg" height="200" width="200" style="border-radius: 50%;">
+                            <h5>Felix othina:sec gen</h5>
+                            <p>Computer Science student at MMU</p>
+                        </div>
+                    </div>
+
+                     <div class="col-md-3 col-sm-6 col-xs-12"     style="border-left: 1px solid lightgrey;">
+                        <div class="features-content">
+                            <img src="assets/images/t.jpg" height="200" width="200" style="border-radius: 50%;">
+                            <h5>tyson osore:web admin</h5>
+                            <p>Computer science student at MMU</p>
+                        </div>
+                    </div>
+
+                     <div class="col-md-3 col-sm-6 col-xs-12"     style="border-left: 1px solid lightgrey;">
+                        <div class="features-content">
+                            <img src="assets/images/kokky.jpg" height="200" width="200" style="border-radius: 50%;">
+                            <h5>kokky:secretary</h5>
+                            <p>Comp tech student at MMU</p>
+                        </div>
+                    </div>
+
+                     <div class="col-md-3 col-sm-6 col-xs-12"     style="border-left: 1px solid lightgrey;">
+                        <div class="features-content">
+                            <img src="assets/images/walid.jpg" height="200" width="200" style="border-radius: 50%;">
+                            <h5>walid kimayo:treasurer</h5>
+                            <p>IT student at MMU</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+
+
+        <!-- Sections -->
+        <section id="gallery" class="sections">
+            <div class="container text-center">
+
+                <div class="heading-content">
+                    <h3>CIT CLUB GALLERY</h3>
+                    <h5>Summary of photo gallery</h5>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+
+
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery">
+                                <img src="assets/images/gallery/event1.jpg" alt="" />
+                                <h6>dimistifying iot at mmu</h6>
+
+                                <div class="img-overlay"></div>
+
+                                <div class="gallery-icon">
+                                    <a class="gallery-img" href="assets/images/gallery/event1.jpg " target="_blank">Zoom in</a>
+
+                                </div>
+                            </div>
+
+                            <!--<p>photo profile</p>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery">
+                                <img src="assets/images/gallery/event2.jpg" alt="" />
+                                <h6>data science analysis</h6>
+
+                                <div class="img-overlay"></div>
+
+                                <div class="gallery-icon">
+
+                                    <a class="gallery-img" href="assets/images/gallery/event2.jpg" target="_blank">Zoom in</a>
+                                </div>
+                            </div>
+
+                            <!--<p>photo profile</p>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery">
+                                <img src="assets/images/gallery/event3.jpg" alt="" />
+                                <h6>Tech enlightment</h6>
+
+                                <div class="img-overlay"></div>
+
+                                <div class="gallery-icon">
+
+                                    <a class="gallery-img" href="assets/images/gallery/event3.jpg" target="_blank">zoom in</a>
+                                </div>
+                            </div>
+
+                            <!--<p>photo profile</p>-->
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery">
+                                <img src="assets/images/gallery/event4.jpg" alt="" />
+                                <h6>ai exposure</h6>
+
+                                <div class="img-overlay"></div>
+
+                                <div class="gallery-icon">
+                                    <a class="gallery-img" href="assets/images/gallery/event4.jpg" target="_blank">zoom in</a>
+                                </div>
+
+                            </div>
+
+                           <!--<p>photo profile</p>-->
+                        </div>
+                    </div>
+
+
+                     <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery">
+                                <img src="assets/images/gallery/event5.jpg" alt="" />
+                                <h6>intel student programmes</h6>
+
+                                <div class="img-overlay"></div>
+
+                                <div class="gallery-icon">
+                                    <a class="gallery-img" href="assets/images/gallery/event5.jpg" target="_blank">zoom in</a>
+                                </div>
+
+                            </div>
+
+                           <!--<p>photo profile</p>-->
+
+                        </div>
+                    </div>
+
+
+                     <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery">
+                                <img src="assets/images/gallery/event6.jpg" alt="" />
+                                <h6>programming class</h6>
+
+                                <div class="img-overlay"></div>
+
+                                <div class="gallery-icon">
+                                    <a class="gallery-img" href="assets/images/gallery/event6.jpg" target="_blank">zoom in</a>
+                                </div>
+
+                            </div>
+
+                           <!--<p>photo profile</p>-->
+
+                        </div>
+                    </div>
+
+
+                     <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery">
+                                <img src="assets/images/gallery/event7.jpg" alt="" />
+                                <h6>.DOT Africa at MMU</h6>
+
+                                <div class="img-overlay"></div>
+
+                                <div class="gallery-icon">
+                                    <a class="gallery-img" href="assets/images/gallery/event7.jpg" target="_blank">zoom in</a>
+                                </div>
+
+                            </div>
+
+                            <!--<p>photo profile</p>-->
+                        </div>
+                    </div>
+
+
+                     <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="gallery-item">
+                            <div class="gallery">
+                                <img src="assets/images/gallery/event8.jpg" alt="" />
+                                <h6>infosec exposure</h6>
+
+                                <div class="img-overlay"></div>
+
+                                <div class="gallery-icon">
+                                    <a class="gallery-img" href="assets/images/gallery/event8.jpg" target="_blank">zoom in</a>
+                                </div>
+
+                            </div>
+
+                          <!--<p>photo profile</p>-->
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+        <section id="video" class="video">
+            <div class="overlay sections">
+                <div class="container text-center">
+                    <!-- Example row of columns -->
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                            <div class="video-content">
+
+                                <a href="assets/video/iot.mp4" class="youtube-media" target="_blank"><i class="fa fa-play"></i></a>
+                                <h1>Watch the best Technology in <span>Action</span></h1>
+                                <p>The actual art of IOT is more that amazing.Press play and watch the video<br></p><br><br><br><br><br><br><br><br><br><br><br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /container -->
+            </div>		
+        </section>
+
+        <!-- Sections -->
+
+        <!-- Sections -->
+        <section id="timetable" class="sections lightbg">
+            <div class="container text-center">
+
+                <div class="heading-content">
+                    <h3>Semester Timetable</h3><br><br><br><br>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+
+                    <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                        <br><br><br><br><br>  <br><br><br>
+
+                        
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>     
+        </section>
+
+
+
+        <!-- Sections -->
+        <section id="download" class="section colorsbg download">
+            <!--this section is empty-->    
+        </section>
+
+        <!-- Sections -->
+
+
+
+        <section id="contact">
+
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6581223758603!2d36.76676161447685!3d-1.3817759989922251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f059ba53cc253%3A0x84f65413371bebb!2sMultimedia+University+of+Kenya!5e0!3m2!1sen!2ske!4v1518944572060" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="container text-center">
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-4 col-sm-12 col-xs-12">
+                    <br><br><br><br> <br><br><br><br>
+                        <div class="contact-form-area">
+
+                            <form method="POST" action="contactin.php">
+                                <h3>Contact</h3>	
+                                <div class="form-group">
+                                    <input type="text" name="username" class="form-control" placeholder="Your Name">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Your Email">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" name="subject" class="form-control" placeholder="Your Subject">
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea name="msg" class="form-control" rows="7" placeholder="Message"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary contact-btn">SEND</button>
+                            </form>
+                        </div>	
+                    </div>
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+
+
+
+        <div class="scroll-top">
+
+            <div class="scrollup">
+                <a href="#home">
+                <i class="fa fa-angle-double-up"></i>
+                </a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+            <!--login modal form-->
+<div class="modal fade" id="login" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<form class="form-horizontal" method="POST" action="action_login.php">
+<div class="modal-header">
+<h4><center><div class="glyphicon glyphicon-user"></div> MEMBER LOGIN</center></h4>
+</div>
+
+<div class="modal-body">
+
+<div class="form-group">
+<label for="adm number" class="col-lg-3 control-label">Registration number:</label>
+<div class="col-lg-9">
+<input type="text" class="form-control" name="adm" placeholder="Registration number" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="name" class="col-lg-3 control-label">Password:</label>
+<div class="col-lg-9">
+<input type="password" class="form-control" name="password" placeholder="Password" required>
+</div>
+</div>
+
+
+<div class="form-group">
+<!--<div class="modal-footer">-->
+<center><button type="button" class="btn btn-primary contact-btn" onclick="location.reload()">BACK</button>
+<button class="btn btn-primary" type="submit" name="submit">LOGIN</button></center>
+<!--</div>-->
+</div>
+
+
+</div>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+
+<!--end of modal form-->
+
+
+
+
+
+ <!--officials login modal form-->
+<div class="modal fade" id="officials_login" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<form class="form-horizontal" method="POST" action="reg_members.php">
+<div class="modal-header">
+<h4><center><div class="glyphicon glyphicon-user"></div> OFFICIAL LOGIN</center></h4>
+</div>
+
+<div class="modal-body">
+
+<div class="form-group">
+<label for="adm number" class="col-lg-3 control-label">Username:</label>
+<div class="col-lg-9">
+<input type="text" class="form-control" name="uname" placeholder="Username" required>
+</div>
+</div>
+
+<div class="form-group">
+<label for="name" class="col-lg-3 control-label">Password:</label>
+<div class="col-lg-9">
+<input type="password" class="form-control" name="password" placeholder="Password" required>
+</div>
+</div>
+
+
+<div class="form-group">
+<!--<div class="modal-footer">-->
+<center><button type="button" class="btn btn-primary contact-btn" onclick="location.reload()">BACK</button>
+<button class="btn btn-primary" type="submit" name="submit">LOGIN</button></center>
+<!--</div>-->
+</div>
+
+
+</div>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+
+<!--end of modal form-->
+
+
+
+
+
+
+
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer colorsbg">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="copyright text-left">
+                            <p>Made by CIT CLUB</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="copyright text-right">
+                            <p> © 2018 | All rights reserved.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                         <a href="#"><i class="fa fa-twitter"></i></a>
+                         <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+        </footer>
+
+         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="assets/js/vendor/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+
+
+        <script src="http://maps.google.com/maps/api/js"></script>
+        <script src="assets/js/gmaps.min.js"></script>
+
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
